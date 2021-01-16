@@ -52,27 +52,27 @@ The system consists of:
 
 # Access Token VS RefreshToken
 
-• Access Token:
+## • Access Token:
 
-• Contains the information necessary to directly access a resource.
+   - Contains the information necessary to directly access a resource.
 
-• In other words, when a client transmits an access token to a server managing a resource, this server can use the information in the token to decide whether the client is authorized or not.
-• Access tokens generally have an expiration date and are short lived.
+   - In other words, when a client transmits an access token to a server managing a resource, this server can use the information       in the token to decide whether the client is authorized or not.
+   - Access tokens generally have an expiration date and are short lived.
 
-• RefreshToken:
+## • RefreshToken:
 
-• Contains the information necessary to obtain a new Access Token.
+   - Contains the information necessary to obtain a new Access Token.
 
-• In other words, whenever an access token is required to access a specific resource, a client can use the Refresh Token to obtain a new Access Token issued by the authentication server.
+   - In other words, whenever an access token is required to access a specific resource, a client can use the Refresh Token to           obtain a new Access Token issued by the authentication server.
 
-• Common use cases include
+   - Common use cases include
 
-• Obtaining new access tokens after the expiration of the old ones,
+   - Obtaining new access tokens after the expiration of the old ones,
 
-• Access to a new resource for the first time.
+   - Access to a new resource for the first time.
 
-• Discount tokens can also expire but have a rather long lifespan.
+   - Discount tokens can also expire but have a rather long lifespan.
 
-• Refresh tokens generally have strict storage requirements to ensure that they do not leak.
+   - Refresh tokens generally have strict storage requirements to ensure that they do not leak.
 
-• They can also be blacklisted by the authorization server.
+   - They can also be blacklisted by the authorization server.
