@@ -22,14 +22,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c247a96-c71f-4e5d-a0dd-7967217fc54e" name="Default Changelist" comment="" />
+    <list default="true" id="7c247a96-c71f-4e5d-a0dd-7967217fc54e" name="Default Changelist" comment="deleteMe2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/enset/supplierservice/entities/d2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -39,6 +48,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1mjv73eGQlhogYv7G2yCoTr3DuF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -93,7 +103,30 @@
       <workItem from="1610179287050" duration="4667000" />
       <workItem from="1610792517946" duration="2172000" />
       <workItem from="1610798896598" duration="1238000" />
+      <workItem from="1610802027029" duration="314000" />
     </task>
+    <task id="LOCAL-00001" summary="deleteMe">
+      <created>1610802066163</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610802066163</updated>
+    </task>
+    <task id="LOCAL-00002" summary="deleteMe">
+      <created>1610802158045</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610802158045</updated>
+    </task>
+    <task id="LOCAL-00003" summary="deleteMe2">
+      <created>1610802227010</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610802227010</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +143,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="deleteMe" />
+    <MESSAGE value="deleteMe2" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleteMe2" />
   </component>
   <component name="WindowStateProjectService">
     <state width="916" height="278" key="GridCell.Tab.0.bottom" timestamp="1610798882260">
