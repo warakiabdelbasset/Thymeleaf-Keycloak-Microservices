@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="template"
+>
+<head>
+    <meta charset="UTF-8">
+    <title>Suppliers</title>
+</head>
+<body>
+
+<div layout:fragment="content">
+    <div class="text-danger">
+        <h3 th:text="${errorMessage}"></h3>
+    </div>
+</div>
+</body>
+</html>
