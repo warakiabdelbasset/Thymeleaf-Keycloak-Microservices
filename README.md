@@ -20,7 +20,9 @@ The system consists of:
 • The management of products and suppliers is secure for the two Frontend applications, by an SSO authentication system based on Keycloak Server
 
 
-![](img/Capture2.PNG)
+<p align="center">
+  <img src="https://github.com/warakiabdelbasset/Security-of-Microservices-Keycloak/blob/master/img/Capture2.PNG">
+</p>
 
 
 1. The Client Attempts to access a resource not protected (http: // localhost: 8082 / index)
@@ -30,7 +32,9 @@ The system consists of:
 5. The Browser sends a request to the server Keycloack to request the form authentication: http: // localhost: 8080 / auth? clientID = productsApp
 6. Keycloack sends the Form to the Browser authentication (200 OK)
 
-![](img/Capture3.PNG)
+<p align="center">
+  <img src="https://github.com/warakiabdelbasset/Security-of-Microservices-Keycloak/blob/master/img/Capture3.PNG">
+</p>
 
 7. The customer enters his username and password and send a post to keycloack
 8. Keycloack verifies the identity of the user and opens a user session, then sends a redirection to the application with a parameter code representing the user's session: 302: http: / localhost: 8082 / sso / login? code = xxxxx
@@ -42,7 +46,9 @@ The system consists of:
 14. The application checks if the user's role is allows access to this resource and sends it.
 
 
-![](img/Capture4.PNG)
+<p align="center">
+  <img src="https://github.com/warakiabdelbasset/Security-of-Microservices-Keycloak/blob/master/img/Capture4.PNG">
+</p>
 
 
 15. The authenticated Client requests the application a protected resource / suppliers. Implemented in a remote micro service also as a Protected REST API by a Keycloack and Spring Adapter security in bearer only mode.
