@@ -3,7 +3,10 @@ Security of Microservices using Keycloak for the part (security, authentication)
 
 # Application architecture
 
-![](img/Capture1.PNG)
+<p align="center">
+  <img width="460" height="300" src="https://github.com/warakiabdelbasset/Security-of-Microservices-Keycloak/blob/master/img/Capture1.PNG">
+</p>
+
 
 
 The system consists of:
