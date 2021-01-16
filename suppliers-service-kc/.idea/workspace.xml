@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c247a96-c71f-4e5d-a0dd-7967217fc54e" name="Default Changelist" comment="deleteMe2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/enset/supplierservice/entities/d2.java" afterDir="false" />
-    </list>
+    <list default="true" id="7c247a96-c71f-4e5d-a0dd-7967217fc54e" name="Default Changelist" comment="deleteMe2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,17 +69,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SupplierServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="supplier-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ma.enset.supplierservice.SupplierServiceApplication" />
@@ -103,7 +90,7 @@
       <workItem from="1610179287050" duration="4667000" />
       <workItem from="1610792517946" duration="2172000" />
       <workItem from="1610798896598" duration="1238000" />
-      <workItem from="1610802027029" duration="314000" />
+      <workItem from="1610802027029" duration="573000" />
     </task>
     <task id="LOCAL-00001" summary="deleteMe">
       <created>1610802066163</created>
@@ -126,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610802227010</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="deleteMe2">
+      <created>1610802357159</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610802357159</updated>
+    </task>
+    <task id="LOCAL-00005" summary="deleteMe2">
+      <created>1610802582343</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610802582343</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,10 +183,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="916" height="278" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610798882260" />
-    <state x="80" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610802525956">
+    <state x="80" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610802592413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="80" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610802525956" />
+    <state x="80" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610802592412" />
     <state x="305" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610802340943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
