@@ -7,9 +7,13 @@ Security of Microservices using Keycloak for the part (security, authentication)
 
 
 The system consists of:
+
 • A Spring MVC Front end Web application, Server side which allows you to manage products and suppliers. The products are stored in an H2 database and the suppliers can be accessed remotely in a micro service.
+
 • A Spring Boot Micro Service to manage suppliers
+
 • A Front Web Thymeleaf applications allowing to manage suppliers
+
 • The management of products and suppliers is secure for the two Frontend applications, by an SSO authentication system based on Keycloak Server
 
 
