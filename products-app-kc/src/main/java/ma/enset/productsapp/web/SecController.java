@@ -30,4 +30,5 @@ public class SecController {
         attributes.addAttribute("referrer_uri",request.getHeader("referer"));
         return "redirect:"+ deployment.getAccountUrl();
     }
+
 }

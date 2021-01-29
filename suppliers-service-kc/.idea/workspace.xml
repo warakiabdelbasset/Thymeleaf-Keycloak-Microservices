@@ -19,10 +19,27 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c247a96-c71f-4e5d-a0dd-7967217fc54e" name="Default Changelist" comment="deleteMe2" />
+    <list default="true" id="7c247a96-c71f-4e5d-a0dd-7967217fc54e" name="Default Changelist" comment="delete abdo">
+      <change beforePath="$PROJECT_DIR$/../products-app-kc/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../products-app-kc/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../products-app-kc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../products-app-kc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../products-app-kc/src/main/java/ma/enset/productsapp/web/SecController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../products-app-kc/src/main/java/ma/enset/productsapp/web/SecController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../products-app-kc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../products-app-kc/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../products-app-kc/src/main/resources/templates/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/../products-app-kc/src/main/resources/templates/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../products-app-kc/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../products-app-kc/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +76,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/ma/enset/supplierservice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../keycloak-Angular/AngularKeycloak" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -91,6 +108,15 @@
       <workItem from="1610792517946" duration="2172000" />
       <workItem from="1610798896598" duration="1238000" />
       <workItem from="1610802027029" duration="573000" />
+      <workItem from="1610802653592" duration="831000" />
+      <workItem from="1610964227874" duration="599000" />
+      <workItem from="1611050272715" duration="32000" />
+      <workItem from="1611575850952" duration="7160000" />
+      <workItem from="1611663539359" duration="222000" />
+      <workItem from="1611678892257" duration="1829000" />
+      <workItem from="1611682351591" duration="118000" />
+      <workItem from="1611853255322" duration="3008000" />
+      <workItem from="1611913201244" duration="1833000" />
     </task>
     <task id="LOCAL-00001" summary="deleteMe">
       <created>1610802066163</created>
@@ -127,7 +153,28 @@
       <option name="project" value="LOCAL" />
       <updated>1610802582343</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="deleteMe3">
+      <created>1610802722404</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610802722404</updated>
+    </task>
+    <task id="LOCAL-00007" summary="abdo">
+      <created>1610802820900</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610802820900</updated>
+    </task>
+    <task id="LOCAL-00008" summary="delete abdo">
+      <created>1610802871236</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610802871236</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +185,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -148,48 +207,59 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="deleteMe" />
     <MESSAGE value="deleteMe2" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleteMe2" />
+    <MESSAGE value="deleteMe3" />
+    <MESSAGE value="abdo" />
+    <MESSAGE value="delete abdo" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete abdo" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="916" height="278" key="GridCell.Tab.0.bottom" timestamp="1610798882260">
+    <state x="268" y="275" key="FileChooserDialogImpl" timestamp="1611050297882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610798882260" />
-    <state width="916" height="278" key="GridCell.Tab.0.center" timestamp="1610798882260">
+    <state x="268" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611050297882" />
+    <state width="914" height="275" key="GridCell.Tab.0.bottom" timestamp="1611913621177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610798882260" />
-    <state width="916" height="278" key="GridCell.Tab.0.left" timestamp="1610798882260">
+    <state width="914" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611913621177" />
+    <state width="914" height="275" key="GridCell.Tab.0.center" timestamp="1611913621177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610798882260" />
-    <state width="916" height="278" key="GridCell.Tab.0.right" timestamp="1610798882260">
+    <state width="914" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611913621177" />
+    <state width="914" height="275" key="GridCell.Tab.0.left" timestamp="1611913621177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610798882260" />
-    <state width="916" height="278" key="GridCell.Tab.1.bottom" timestamp="1610798882261">
+    <state width="914" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611913621177" />
+    <state width="914" height="275" key="GridCell.Tab.0.right" timestamp="1611913621177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="278" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610798882261" />
-    <state width="916" height="278" key="GridCell.Tab.1.center" timestamp="1610798882260">
+    <state width="914" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611913621177" />
+    <state width="914" height="275" key="GridCell.Tab.1.bottom" timestamp="1611913621177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="278" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610798882260" />
-    <state width="916" height="278" key="GridCell.Tab.1.left" timestamp="1610798882260">
+    <state width="914" height="275" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611913621177" />
+    <state width="914" height="275" key="GridCell.Tab.1.center" timestamp="1611913621177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="278" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610798882260" />
-    <state width="916" height="278" key="GridCell.Tab.1.right" timestamp="1610798882260">
+    <state width="914" height="275" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611913621177" />
+    <state width="914" height="275" key="GridCell.Tab.1.left" timestamp="1611913621177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="278" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610798882260" />
-    <state x="80" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610802592413">
+    <state width="914" height="275" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611913621177" />
+    <state width="914" height="275" key="GridCell.Tab.1.right" timestamp="1611913621177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="80" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610802592412" />
+    <state width="914" height="275" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611913621177" />
+    <state x="80" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610802877434">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="80" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610802877434" />
     <state x="305" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610802340943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="305" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610802340943" />
+    <state x="196" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1610802687424">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="196" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610802687424" />
   </component>
 </project>

@@ -23,13 +23,13 @@
         <li class="nav-item">
             <a class="nav-link" th:href="@{/products}">Products</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" sec:authorize="hasAuthority('app-manager')">
             <a class="nav-link" th:href="@{/suppliers}">Suppliers</a>
         </li>
     </ul>
     <ul class="navbar-nav ml-auto">
         <!-- Dropdown -->
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown" sec:authorize="isAuthenticated()">
             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                 <span sec:authentication="name"></span>
             </a>
@@ -38,6 +38,7 @@
                 <a class="dropdown-item" th:href="@{/profile}">Change Password</a>
             </div>
         </li>
+
     </ul>
 </nav>
 <div layout:fragment="content">
