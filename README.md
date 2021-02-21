@@ -1,4 +1,4 @@
-# Security-of-Microservices-Keycloak
+# Thymeleaf-Keycloak-Microservices
 Security of Microservices using Keycloak for the part (security, authentication) and thymeleaf for the display part
 
 # Application architecture
